@@ -1,0 +1,48 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Utrecht University
+    url: "https://www.uu.nl/en"
+    location: Utrecht, The Netherlands
+    # company overview
+    # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Research and Education Assistant (as Front-end Developer)
+    start: Aug 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Design and develop the front-end user interface for [ASReview LAB](https://asreview.nl/lab).
+    - Develop REST APIs to communicate between the front-end and back-end.
+
+  - designation: Graduate Research Assistant
+    start: Feb 2020
+    end: Jul 2021
+    responsibilities:
+    - Pre-process the metadata of the benchmark datasets for ASReview LAB.
+    - Web application front-end (React JavaScript) and back-end (Python Flask) development training.
+
+- company:
+    name: Statistics Netherlands
+    url: "https://www.cbs.nl/en-gb"
+    location: The Hague, The Netherlands
+    # overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+  positions:
+  - designation: Intern Methodologist
+    start: Sep 2020
+    end: Jul 2021
+    responsibilities:
+    - Develop the Bayesian adaptive survey design focused on reducing survey nonresponse bias.
+    - Develop an optimal stratification method to divide the target population into subgroups.
+    - Validate the effectiveness of assigning different data collection strategies to target population subgroups in reducing survey nonresponse bias.

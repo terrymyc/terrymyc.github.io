@@ -1,0 +1,19 @@
+# some information about you
+name: "Yongchao Ma"
+nickname: "Yongchao"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/yongchao.jpeg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "y.ma1@uu.nl"
+  # phone: "+31-617651480"
+  address: "Sjoerd Groenmangebouw C1.19, Padualaan 14, 3584 CH Utrecht, The Netherlands"
+
+# some summary about what you do
+summary:
+  - I am a statistician/methodologist
+  - I am also a sociologist
+  - I am a criminologist as well
+  - But I work as an "amateur" front-end developer
+  - I have a taste for human-computer interaction

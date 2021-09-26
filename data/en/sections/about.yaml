@@ -1,0 +1,60 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Front-end Developer
+# your company information
+company:
+  name: Utrecht University
+  url: "https://www.uu.nl/en"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/Y.Ma_resume.pdf"
+
+# a summary about you
+summary: 'I am a passionate self-taught front-end developer working at the [Department of Methodology and Statistics](https://www.uu.nl/en/organisation/methodology-and-statistics) at Utrecht University. I built the user interface for [ASReview LAB](https://asreview.nl/lab/), an open-source AI-aided software that helps researchers accelerate the screening of textual data for systematic reviews and meta-analyses as efficiently and transparently as possible.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "y.ma1@uu.nl"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/terrymyc"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/yongchao-ma/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/terrymyc"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+# badges:
+# - type: certification
+#   name: Certified Kubernetes Security Specialist
+#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#   badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+# softSkills:
+# - name: Leadership
+#   percentage: 85
+#   color: blue
+# - name: Team Work
+#   percentage: 90
+#   color: yellow

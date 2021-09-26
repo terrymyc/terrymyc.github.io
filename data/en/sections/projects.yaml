@@ -1,0 +1,36 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+
+# your projects
+projects:
+- name: ASReview
+  logo: /images/sections/projects/asreview.png
+  role: Developer
+  timeline: "Jan 2019 - Present"
+  repo: https://github.com/asreview/asreview # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: For many tasks—including but not limited to systematic reviews and meta-analyses—scholars, medical doctors, journalists, and policymakers currently screen thousands of texts (e.g., scientific literature, newspapers) by hand to determine relevant texts to include in their review or meta-analysis. The Active learning for Systematic Reviews (ASReview) project, publised in [Nature Machine Intelligence](https://doi.org/10.1038/s42256-020-00287-7), implements machine learning algorithms that interactively query the researcher to accelerate the screening of textual data as efficiently and transparently as possible.
+  tags: ["professional","deep-learning","machine-learning","systematic-reviews"]
+
+- name: Optimal Stratification in Bayesian Adaptive Survey Designs
+  role: Researcher
+  timeline: "Sep 2020 - Jul 2021"
+  url: "https://www.europeansurveyresearch.org/conf2021/uploads/57/3653/67/Ma_ESRA21.pdf"
+  summary: In an increasing number of survey designs, adaptive data collection strategies for different members of the population are adopted to balance the data quality and cost. Stratifying the target population into subgroups in an effective manner plays a decisive role in identifying the optimal adaptive survey design. This paper presents a stratification method on the basis of which the optimal adaptive survey designs can be constructed under the Bayesian analysis to minimize nonresponse bias. The utility of this method compared to two other response- and cost-oriented stratification methods is assessed through a case study based on the Dutch Health Survey. The optimal adaptive survey designs based on the proposed method outperform in minimizing nonresponse bias, which indicates that the underlying stratification is the optimal stratification.
+  tags: ["academic","survey","nonresponse"]
