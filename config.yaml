@@ -33,7 +33,7 @@ outputs:
 enableEmoji: true
 
 # Enable Google Analytics
-googleAnalytics: G-G1BNVN1EHT
+googleAnalytics: UA-197507060-1
 
 # Site parameters
 params:
