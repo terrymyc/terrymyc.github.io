@@ -4,7 +4,7 @@ section:
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 3
+  weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -53,11 +53,11 @@ degrees:
     showGrades: false
     courses:
     - name: Criminological Theories
+    - name: Policing
     - name: Applied Statistics
     - name: Advanced Statistics
     - name: Comparative Criminology
     - name: Corrections
-    - name: Policing
     - name: Research Methods
 
 - name: Exchange, Computational Social Science

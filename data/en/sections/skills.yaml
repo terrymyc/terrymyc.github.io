@@ -1,0 +1,38 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: R
+  logo: /images/sections/skills/R.png
+  summary: "A statistician certainly knows how to use R for data analysis and research. Mostly, use RStudio."
+  url: "https://www.r-project.org"
+
+- name: Python
+  logo: /images/sections/skills/Python.png
+  summary: "Learned the basics online and then forgot about it. Picked up doing data analysis 3 years later, and shortly after that came across Flask web application development."
+  url: "https://www.python.org"
+
+- name: ReactJS
+  logo: /images/sections/skills/ReactJS.png
+  summary: "Taught myself for a week, then developed a software feature. Learned by doing and now even become a front-end developer."
+  url: "https://reactjs.org"
+
+- name: Git
+  logo: /images/sections/skills/Git.png
+  summary: "Working on an open-source project in a team definitely requires the use of Git. Mostly, use GitHub."
+  url: "https://git-scm.com/"
+
+- name: Statistical Software
+  summary: "SPSS, Stata, HLM, Mplus, JAGS. All of these, but I forgot them after the exam."
+
+- name: All in All
+  summary: "The skills are easy to learn and easy to forget. The skill itself is not important, all that matters is what you do with the skill."

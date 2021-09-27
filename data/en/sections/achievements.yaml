@@ -4,7 +4,7 @@ section:
   id: achievements
   enable: true
   weight: 8
-  showOnNavbar: true
+  showOnNavbar: false
   # Can optionally hide the title in sections
   # hideTitle: true
 
@@ -12,4 +12,4 @@ section:
 achievements:
 - title: Exchange Scholarship
   image: /images/sections/achievements/exchange.png
-  summary: Received the Outgoing Exchange Scholarship from the University of Macau in 2018.
+  summary: Received the Outgoing Exchange Scholarship from the University of Macau in 2018. My journey to Europe began.
