@@ -4,7 +4,7 @@ section:
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 2
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -20,18 +20,18 @@ degrees:
     scale: CGPA
     achieved: 8.22
     outOf: 10
-  takenCourses: #(optional)
+  # takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: false
-    courses:
-    - name: Bayesian Statistics
-    - name: Computational Inference with R
-    - name: Biomedical Statistics
-    - name: Fundamentals of Statistics
-    - name: Multilevel and Structural Equation Modeling
-    - name: Multivariate Statistics
-    - name: Psychometrics
-    - name: Survey Data Analysis
+    # showGrades: false
+    # courses:
+    # - name: Bayesian Statistics
+    # - name: Computational Inference with R
+    # - name: Biomedical Statistics
+    # - name: Fundamentals of Statistics
+    # - name: Multilevel and Structural Equation Modeling
+    # - name: Multivariate Statistics
+    # - name: Psychometrics
+    # - name: Survey Data Analysis
   publications: #(optional)
   - title: An open source machine learning framework for efficient and transparent systematic reviews.
     url: "https://doi.org/10.1038/s42256-020-00287-7"
@@ -48,17 +48,17 @@ degrees:
     scale: CGPA
     achieved: 3.88
     outOf: 4
-  takenCourses: #(optional)
+  # takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: false
-    courses:
-    - name: Criminological Theories
-    - name: Policing
-    - name: Applied Statistics
-    - name: Advanced Statistics
-    - name: Comparative Criminology
-    - name: Corrections
-    - name: Research Methods
+    # showGrades: false
+    # courses:
+    # - name: Criminological Theories
+    # - name: Policing
+    # - name: Applied Statistics
+    # - name: Advanced Statistics
+    # - name: Comparative Criminology
+    # - name: Corrections
+    # - name: Research Methods
 
 - name: Exchange, Computational Social Science
   icon: fa-university
@@ -66,14 +66,14 @@ degrees:
   institution:
     name: Linköping University
     url: "https://liu.se/en"
-  takenCourses: #(optional)
+  # takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: false
-    courses:
-    - name: Logic of Social Inquiry
-    - name: Behavioural Mechanisms in the Social Sciences
-    - name: Statistics and Data Science I
-    - name: Statistics and Data Science II
+    # showGrades: false
+    # courses:
+    # - name: Logic of Social Inquiry
+    # - name: Behavioural Mechanisms in the Social Sciences
+    # - name: Statistics and Data Science I
+    # - name: Statistics and Data Science II
 
 # - name: Higher Secondary School Certificate
 #   icon: fa-university

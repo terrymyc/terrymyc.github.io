@@ -3,7 +3,7 @@ section:
   name: Experiences
   id: experiences
   enable: true
-  weight: 3
+  weight: 5
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
@@ -17,7 +17,7 @@ experiences:
     # company overview
     # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:
-  - designation: Research and Education Assistant (as Front-end Developer)
+  - designation: Research Engineer
     start: Aug 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
@@ -31,6 +31,7 @@ experiences:
     end: Jul 2021
     responsibilities:
     - Pre-process the metadata of the benchmark datasets for ASReview LAB.
+    - Develop the [wordcloud](https://doi.org/10.5281/zenodo.4672241) for visualizing keywords in the title/abstract of a dataset.
     - Web application front-end (React JavaScript) and back-end (Python Flask) development training.
 
 - company:
