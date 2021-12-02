@@ -33,10 +33,10 @@ degrees:
     # - name: Psychometrics
     # - name: Survey Data Analysis
   publications: #(optional)
-  - title: An open source machine learning framework for efficient and transparent systematic reviews.
+  - title: An open source machine learning framework for efficient and transparent systematic reviews
     url: "https://doi.org/10.1038/s42256-020-00287-7"
-  - title: Optimal stratification in Bayesian adaptive survey designs.
-    url: "https://www.europeansurveyresearch.org/conf2021/uploads/57/3653/67/Ma_ESRA21.pdf"
+  - title: An optimal stratification approach for addressing nonresponse bias in Bayesian adaptive survey design
+    url: "https://www.europeansurveyresearch.org/conferences/program2021?sess=10#57"
 
 - name: M.S.Sc. in Criminology and Criminal Justice (With Great Distinction)
   icon: fa-university

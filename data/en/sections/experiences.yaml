@@ -23,16 +23,16 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop the front-end user interface for [ASReview LAB](https://asreview.nl/lab).
-    - Develop REST APIs to communicate between the front-end and back-end.
+    - Design and develop the front-end user interface for [ASReview LAB](https://asreview.nl/lab)
+    - Develop REST APIs to communicate between the front-end and back-end of the software
 
   - designation: Graduate Research Assistant
     start: Feb 2020
     end: Jul 2021
     responsibilities:
-    - Pre-process the metadata of the benchmark datasets for ASReview LAB.
-    - Develop the [wordcloud](https://doi.org/10.5281/zenodo.4672241) for visualizing keywords in the title/abstract of a dataset.
-    - Web application front-end (React JavaScript) and back-end (Python Flask) development training.
+    - Pre-process the metadata of the benchmark systematic review datasets for ASReview LAB
+    - Develop [wordclouds](https://doi.org/10.5281/zenodo.4672241) for visualizing keywords in the article titles/abstracts in a systematic review dataset
+    - Web application front-end (React JavaScript) and back-end (Python Flask) development training
 
 - company:
     name: Statistics Netherlands
@@ -44,6 +44,5 @@ experiences:
     start: Sep 2020
     end: Jul 2021
     responsibilities:
-    - Develop the Bayesian adaptive survey design focused on reducing survey nonresponse bias.
-    - Develop an optimal stratification method to divide the target population into subgroups.
-    - Validate the effectiveness of assigning different data collection strategies to target population subgroups in reducing survey nonresponse bias.
+    - Develop a methodology under Bayesian analysis to stratify the target population into subgroups and assign different data collection strategies to them
+    - Validate the effectiveness of the methodology in reducing survey nonresponse bias
