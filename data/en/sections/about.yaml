@@ -18,7 +18,7 @@ company:
 resume: "files/Ma_CV.pdf"
 
 # a summary about you
-summary: 'I am a passionate self-taught front-end developer working at the [Department of Methodology and Statistics](https://www.uu.nl/en/organisation/methodology-and-statistics) at Utrecht University. I built the user interface for [ASReview LAB](https://asreview.nl/lab/), an open-source AI-based software that helps researchers accelerate the screening of textual data for systematic reviews and meta-analyses as efficiently and transparently as possible.'
+summary: 'I am a passionate self-taught front-end developer working at the [Department of Methodology and Statistics](https://www.uu.nl/en/organisation/methodology-and-statistics) at Utrecht University. I am a maintainer of [ASReview LAB](https://asreview.nl/lab/), an open-source AI-based software that helps researchers accelerate the screening of textual data for systematic reviews and meta-analyses as efficiently and transparently as possible.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
