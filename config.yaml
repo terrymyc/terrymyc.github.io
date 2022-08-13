@@ -43,7 +43,7 @@ params:
   logo:
     # main: /images/site/main-logo.png
     # inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.jpeg
+    favicon: /images/site/favicon.jpg
 
   # GitHub repo URL of your site
   gitRepo: https://github.com/terrymyc/terrymyc.github.io
