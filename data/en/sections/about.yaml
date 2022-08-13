@@ -8,24 +8,24 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Research Engineer
+designation: Ph.D. Student
 # your company information
 company:
-  name: Utrecht University
-  url: "https://www.uu.nl/staff/YMa1"
+  name: University of Michigan
+  url: "https://mcommunity.umich.edu/person/ytma"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Ma_CV.pdf"
 
 # a summary about you
-summary: 'I am a passionate self-taught front-end developer working at the [Department of Methodology and Statistics](https://www.uu.nl/en/organisation/methodology-and-statistics) at Utrecht University. I am a maintainer of [ASReview LAB](https://asreview.nl/lab/), an open-source AI-based research software. Starting in September 2022, I will be joining the [University of Michigan](https://umich.edu) as a Ph.D. student in [Survey and Data Science](https://surveydatascience.isr.umich.edu).'
+summary: 'I am a Ph.D. student in [Survey and Data Science](https://surveydatascience.isr.umich.edu) in the [Survey Research Center](https://www.src.isr.umich.edu) at the [Institute for Social Research](https://isr.umich.edu) on the [University of Michigan - Ann Arbor](https://umich.edu) campus. I am also a maintainer of [ASReview LAB](https://asreview.nl/lab/), an open-source AI-based research software.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "y.ma1@uu.nl"
+  url: "ytma@umich.edu"
 
 - name: Github
   icon: "fab fa-github"

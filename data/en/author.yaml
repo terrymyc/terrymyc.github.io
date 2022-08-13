@@ -3,16 +3,17 @@ name: "Yongchao Ma"
 nickname: "Yongchao"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
-image: "images/author/yongchao.jpeg"
+image: "images/author/yongchao.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "y.ma1@uu.nl"
+  email: "ytma@umich.edu"
   # phone: "+31-617651480"
-  address: "Sjoerd Groenmangebouw C1.19, Padualaan 14, 3584 CH Utrecht, The Netherlands"
+  address: "426 Thompson Street, Ann Arbor, MI 48106"
 
 # some summary about what you do
 summary:
-  - Somehow I work as a front-end developer
-  - I am actually a statistician/methodologist
+  # - Somehow I work as a front-end developer
+  - I am a statistician/methodologist
   - I am also a sociologist
   - I am a criminologist as well
+  - I sometimes do front-end development

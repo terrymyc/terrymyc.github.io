@@ -10,6 +10,34 @@ section:
   # hideTitle: true
 
 degrees:
+- name: Ph.D. in Survey and Data Science
+  icon: fa-graduation-cap
+  timeframe: 2022-Present
+  institution:
+    name: University of Michigan
+    url: "https://umich.edu"
+  # grade: #(optional)
+    # scale: CGPA
+    # achieved: 8.22
+    # outOf: 10
+  # takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    # showGrades: false
+    # courses:
+    # - name: Bayesian Statistics
+    # - name: Computational Inference with R
+    # - name: Biomedical Statistics
+    # - name: Fundamentals of Statistics
+    # - name: Multilevel and Structural Equation Modeling
+    # - name: Multivariate Statistics
+    # - name: Psychometrics
+    # - name: Survey Data Analysis
+  # publications: #(optional)
+  # - title: An open source machine learning framework for efficient and transparent systematic reviews
+    # url: "https://doi.org/10.1038/s42256-020-00287-7"
+  # - title: An optimal stratification approach for addressing nonresponse bias in Bayesian adaptive survey design
+    # url: "https://www.europeansurveyresearch.org/conferences/program2021?sess=10#57"
+
 - name: M.Sc. in Methodology and Statistics (With Highest Distinction)
   icon: fa-graduation-cap
   timeframe: 2019-2021
