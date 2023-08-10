@@ -32,9 +32,6 @@ outputs:
 # Enable global emoji support
 enableEmoji: true
 
-# Enable Google Analytics
-googleAnalytics: UA-197507060-1
-
 # Site parameters
 params:
   background: "images/cover.jpg"
@@ -53,6 +50,11 @@ params:
     # Enable and configure portfolio
     portfolio:
       enable: true
+    # Enable Google Analytics
+    analytics:
+      enabled: true
+      google:
+        id: G-D9C1T35CLL
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: false
