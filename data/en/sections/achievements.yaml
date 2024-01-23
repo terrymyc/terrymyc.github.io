@@ -10,6 +10,9 @@ section:
 
 # Your achievements achievements
 achievements:
-- title: Exchange Scholarship
+- title: 2023 Midwest Association for Public Opinion Research (MAPOR) Student Fellowship
+  image: /images/sections/achievements/mapor.png
+  summary: Matched with MAPOR fellow Peter V. Miller to receive guidance on the development of my research project.
+- title: 2018 Outgoing Exchange Scholarship from the University of Macau
   image: /images/sections/achievements/exchange.png
   summary: Received the Outgoing Exchange Scholarship from the University of Macau in 2018. My journey to Europe began.

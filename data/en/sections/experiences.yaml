@@ -11,6 +11,23 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: University of Michigan Institute for Social Research
+    url: "https://isr.umich.edu/"
+    location: Ann Arbor, MI, USA
+    # company overview
+    overview: UM-ISR is the world’s largest academic social science survey and research organization.
+  positions:
+  - designation: Graduate Student Research Assistant
+    start: Aug 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Present
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Design a daily web survey on time-varying cannabis use motives to inform adaptive interventions
+    - Analyze temporal changes in motives and implications for adverse health outcomes by Random Intercept Latent Transition Analysis (RI-LTA) using Mplus
+    - Report results to provide practitioners with actionable clinical strategies
+
+- company:
     name: Utrecht University
     url: "https://www.uu.nl/en"
     location: Utrecht, The Netherlands
@@ -23,26 +40,30 @@ experiences:
     end: Jul 2022
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop the front-end user interface for [ASReview LAB](https://asreview.nl/lab)
-    - Develop REST APIs to communicate between the front-end and back-end of the software
+    - Design user interfaces for [ASReview LAB](https://asreview.nl/lab), an AI-based open-source software, using Material Design
+    - Build user interfaces using ReactJS and develop REST APIs for communication with Python servers
+    - Write documentation for collaborating with developers and instructing users
+    - Evaluate and improve the user experience by communicating with users on GitHub
+    - Release the first stable version and volunteer as a maintainer after leaving the organization
 
-  - designation: Graduate Research Assistant
+  - designation: Graduate Student Research Assistant
     start: Feb 2020
     end: Jul 2021
     responsibilities:
-    - Pre-process the metadata of the benchmark systematic review datasets for ASReview LAB
-    - Develop [wordclouds](https://doi.org/10.5281/zenodo.4672241) for visualizing keywords in the article titles/abstracts in a systematic review dataset
-    - Web application front-end (React JavaScript) and back-end (Python Flask) development training
+    - Wrangle metadata for systematic review datasets using Python in Jupyter Notebook
+    - Visualize keywords in titles and abstracts by developing word clouds using Python
+    - Trained in front-end development using ReactJS and back-end development using Python Flask
 
 - company:
     name: Statistics Netherlands
     url: "https://www.cbs.nl/en-gb"
     location: The Hague, The Netherlands
-    # overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: Dutch governmental institution that gathers statistical information about the Netherlands.
   positions:
-  - designation: Intern Methodologist
+  - designation: Intern Survey Methodologist
     start: Sep 2020
     end: Jul 2021
     responsibilities:
-    - Develop a methodology under Bayesian analysis to stratify the target population into subgroups and assign different data collection strategies to them
-    - Validate the effectiveness of the methodology in reducing survey nonresponse bias
+    - Address nonresponse bias within limited budgets by optimizing Bayesian adaptive survey designs
+    - Program and solve the optimization problem in R to find the optimal survey data collection strategy
+    - Report effectiveness to researchers and provide operational advice to survey practitioners
