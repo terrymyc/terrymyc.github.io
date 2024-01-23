@@ -18,7 +18,7 @@ company:
 resume: "files/Ma_CV.pdf"
 
 # a summary about you
-summary: 'I am a Ph.D. student in [Survey and Data Science](https://surveydatascience.isr.umich.edu) in the [Survey Research Center](https://www.src.isr.umich.edu) at the [Institute for Social Research](https://isr.umich.edu) on the [University of Michigan - Ann Arbor](https://umich.edu) campus. I am also a maintainer of [ASReview LAB](https://asreview.nl/lab/), an open-source AI-based research software.'
+summary: 'I am a Ph.D. student in [Survey and Data Science](https://surveydatascience.isr.umich.edu) in the [Survey Research Center](https://www.src.isr.umich.edu) at the [Institute for Social Research](https://isr.umich.edu) on the [University of Michigan - Ann Arbor](https://umich.edu) campus. I am also a maintainer of [ASReview LAB](https://asreview.nl), an open-source AI-based research software.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

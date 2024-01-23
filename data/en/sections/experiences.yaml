@@ -40,7 +40,7 @@ experiences:
     end: Jul 2022
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design user interfaces for [ASReview LAB](https://asreview.nl/lab), an AI-based open-source software, using Material Design
+    - Design user interfaces for [ASReview LAB](https://asreview.nl), an AI-based open-source software, using Material Design
     - Build user interfaces using ReactJS and develop REST APIs for communication with Python servers
     - Write documentation for collaborating with developers and instructing users
     - Evaluate and improve the user experience by communicating with users on GitHub
