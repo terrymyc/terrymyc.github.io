@@ -16,6 +16,7 @@ degrees:
   institution:
     name: University of Michigan
     url: "https://umich.edu"
+    logo: /images/education/umich.svg
   # grade: #(optional)
     # scale: CGPA
     # achieved: 8.22
@@ -44,10 +45,11 @@ degrees:
   institution:
     name: Utrecht University
     url: "https://www.uu.nl/en"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 8.22
-    outOf: 10
+    logo: /images/education/uu.svg
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 8.22
+  #   outOf: 10
   # takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     # showGrades: false
@@ -60,11 +62,11 @@ degrees:
     # - name: Multivariate Statistics
     # - name: Psychometrics
     # - name: Survey Data Analysis
-  publications: #(optional)
-  - title: An open source machine learning framework for efficient and transparent systematic reviews
-    url: "https://doi.org/10.1038/s42256-020-00287-7"
-  - title: An optimal stratification approach for addressing nonresponse bias in Bayesian adaptive survey design
-    url: "https://www.europeansurveyresearch.org/conferences/program2021?sess=10#57"
+  # publications: #(optional)
+  # - title: An open source machine learning framework for efficient and transparent systematic reviews
+    # url: "https://doi.org/10.1038/s42256-020-00287-7"
+  # - title: An optimal stratification approach for addressing nonresponse bias in Bayesian adaptive survey design
+    # url: "https://www.europeansurveyresearch.org/conferences/program2021?sess=10#57"
 
 - name: M.S.Sc. in Criminology and Criminal Justice (With Great Distinction)
   icon: fa-university
@@ -72,10 +74,11 @@ degrees:
   institution:
     name: University of Macau
     url: "https://www.um.edu.mo"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.88
-    outOf: 4
+    logo: /images/education/um.svg
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.88
+  #   outOf: 4
   # takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     # showGrades: false
@@ -94,6 +97,7 @@ degrees:
   institution:
     name: Linköping University
     url: "https://liu.se/en"
+    logo: /images/education/liu.jpg
   # takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     # showGrades: false
