@@ -1,0 +1,39 @@
+-- filter-by-keyword.lua
+-- Pandoc Lua filter to include only bibliography items whose 'keywords' property contains "journal".
+-- Save under your project (e.g. _filters/filter-by-keyword.lua) and reference in _quarto.yml.
+
+-- The Pandoc(doc) filter runs after the bibliography has been loaded (and after nocite
+-- has expanded). We can grab the full list via pandoc.utils.references(doc).
+
+function Pandoc(doc)
+  -- Retrieve all references that are actually included (via citations or nocite)
+  local all_refs = pandoc.utils.references(doc)
+  local filtered_refs = {}
+
+  for _, ref in ipairs(all_refs) do
+    -- Each ref has a .properties table containing its fields
+    local props = ref.properties or {}
+    local kw = props.keywords or props.keyword -- some files might use 'keyword'
+    if kw then
+      -- kw may be a string or list of strings
+      if type(kw) == 'string' then
+        if kw:lower():match('journal') then
+          table.insert(filtered_refs, ref)
+        end
+      elseif type(kw) == 'table' then
+        for _, v in ipairs(kw) do
+          if type(v) == 'string' and v:lower():match('journal') then
+            table.insert(filtered_refs, ref)
+            break
+          end
+        end
+      end
+    end
+  end
+
+  -- Override the document's list of references
+  doc.meta.references = filtered_refs
+  -- Stop Pandoc from reloading the original bibliography (we've already injected)
+  doc.meta.bibliography = nil
+  return doc
+end

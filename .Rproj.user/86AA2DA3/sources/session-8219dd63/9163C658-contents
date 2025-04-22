@@ -1,0 +1,18 @@
+---
+title: "Yongchao Ma"
+subtitle: "Social Science Methodologist and Statistician"
+about:
+  template: jolla
+  image: image/profile.jpg
+  links:
+    - text: "{{< iconify fa6-solid envelope >}}"
+      href: mailto:ytma@umich.edu
+    - text: "{{< iconify fa6-brands google-scholar >}}"
+      href: https://scholar.google.com/citations?user=1pKheqkAAAAJ&hl=en
+    - text: "{{< iconify fa6-brands orcid >}}"
+      href: https://orcid.org/0000-0003-4100-5468
+    - icon: linkedin
+      href: https://www.linkedin.com/in/yongchao-ma
+    - icon: github
+      href: https://github.com/terrymyc
+---

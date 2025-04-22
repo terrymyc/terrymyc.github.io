@@ -1,0 +1,17 @@
+{
+  "index.qmd": {
+    "index.html": "25cb4a28"
+  },
+  "about.qmd": {
+    "about.html": "be13d01b"
+  },
+  "publications.qmd": {
+    "publications.html": "4bae0178"
+  },
+  "research.qmd": {
+    "research.html": "0752a167"
+  },
+  "teaching.qmd": {
+    "teaching.html": "a768f0e6"
+  }
+}

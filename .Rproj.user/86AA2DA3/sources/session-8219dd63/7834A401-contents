@@ -1,0 +1,114 @@
+@inproceedings{maDailyWebSurvey2024,
+  title = {Daily {{Web Survey Data Collection}} to {{Improve Health}}: {{Temporal Dynamics}} of {{Cannabis Use Motives}} and {{Context}}, with {{Implications}} for {{Adaptive Interventions}}},
+  author = {Ma, Yongchao and West, Brady T. and McCabe, Sean Esteban},
+  date = {2024},
+  publisher = {American Association for Public Opinion Research},
+  location = {Atlanta, GA},
+  url = {https://aapor.confex.com/aapor/2024/meetingapp.cgi/Paper/2816},
+  eventtitle = {79th {{Annual AAPOR Conference}}},
+  keywords = {conference}
+}
+
+@inproceedings{maLeveragingSurveyVariables2023,
+  title = {Leveraging {{Survey Variables}} to {{Estimate Response Propensity}} in {{Bayesian Adaptive Survey Design}}: {{A Simulation Study}}},
+  author = {Ma, Yongchao and Miller, Peter V.},
+  date = {2023},
+  publisher = {Midwest Association for Public Opinion Research},
+  location = {Chicago, IL},
+  eventtitle = {48th {{Annual MAPOR Conference}}},
+  keywords = {conference}
+}
+
+@inproceedings{maLeveragingSurveyVariables2024,
+  title = {Leveraging {{Survey Variables}} to {{Estimate Response Propensity}} in {{Bayesian Adaptive Survey Design}}: {{A Simulation Study}}},
+  author = {Ma, Yongchao},
+  date = {2024},
+  publisher = {American Association for Public Opinion Research},
+  location = {Atlanta, GA},
+  url = {https://aapor.confex.com/aapor/2024/meetingapp.cgi/Paper/2469},
+  eventtitle = {79th {{Annual AAPOR Conference}}},
+  keywords = {conference}
+}
+
+@inproceedings{maOptimalStratificationApproach2021,
+  title = {An Optimal Stratification Approach for Addressing Nonresponse Bias in {{Bayesian}} Adaptive Survey Design},
+  author = {Ma, Yongchao and Mushkudiani, Nino and Schouten, Barry},
+  date = {2021},
+  location = {online},
+  eventtitle = {7th {{International Workshop}} on {{Advances}} in {{Adaptive}} and {{Responsive Survey Design}}},
+  keywords = {conference}
+}
+
+@inproceedings{maOptimalStratificationApproach2021a,
+  title = {An Optimal Stratification Approach for Addressing Nonresponse Bias in {{Bayesian}} Adaptive Survey Design},
+  author = {Ma, Yongchao and Mushkudiani, Nino and Schouten, Barry},
+  date = {2021},
+  publisher = {European Survey Research Association},
+  location = {online},
+  url = {https://www.europeansurveyresearch.org/conf2021/uploads/57/3653/67/Ma_ESRA21.pdf},
+  eventtitle = {9th {{ESRA Conference}}},
+  keywords = {conference}
+}
+
+@inproceedings{maReplacingNonresponseModeling2025,
+  title = {Replacing Nonresponse Modeling with Active Learning on {{AI-generated}} Textual Descriptions of Sample Units for Efficient Survey Data Collection},
+  author = {Ma, Yongchao},
+  date = {2025},
+  publisher = {American Association for Public Opinion Research},
+  location = {St. Louis, MO},
+  url = {https://aapor.confex.com/aapor/2025/meetingapp.cgi/Paper/3983},
+  eventtitle = {80th {{Annual AAPOR Conference}}},
+  keywords = {conference}
+}
+
+@inproceedings{maStratificationMethodIdentifying2025,
+  title = {Stratification Method for Identifying Subgroups Requiring Different Survey Data Collection Strategies},
+  author = {Ma, Yongchao},
+  date = {2025},
+  publisher = {European Survey Research Association},
+  location = {Utrecht, The Netherlands},
+  eventtitle = {11th {{ESRA Conference}}},
+  keywords = {conference}
+}
+
+@inproceedings{maSurveyAttitudesPrivacy2025,
+  title = {Survey Attitudes and Privacy Concerns: Measurement Invariance across {{Germany}}, the {{Netherlands}}, and the {{United States}}},
+  author = {Ma, Yongchao and Traugott, Michael},
+  date = {2025},
+  publisher = {European Survey Research Association},
+  location = {Utrecht, The Netherlands},
+  eventtitle = {11th {{ESRA Conference}}},
+  keywords = {conference}
+}
+
+@inproceedings{traugottMotivatedReasoningAcceptance2025,
+  title = {Motivated Reasoning and Acceptance of Poll Results on a Health Policy Issue},
+  author = {Traugott, Michael and Ma, Yongchao},
+  date = {2025},
+  publisher = {Current Innovations in Probability-based Household Internet Panel Research},
+  location = {Washington, DC},
+  url = {https://dornsife.usc.edu/cesr/wp-content/uploads/sites/54/2025/03/3-Traugott-CIPHER-Presentation-V1.pdf},
+  eventtitle = {7th {{CIPHER Conference}}},
+  keywords = {conference}
+}
+
+@inproceedings{traugottRelationshipPublicUnderstanding2025,
+  title = {The Relationship between Public Understanding of Polls and Their Credibility},
+  author = {Traugott, Michael and Ma, Yongchao},
+  date = {2025},
+  publisher = {American Association for Public Opinion Research},
+  location = {St. Louis, MO},
+  url = {https://aapor.confex.com/aapor/2025/meetingapp.cgi/Paper/3678},
+  eventtitle = {80th {{Annual AAPOR Conference}}},
+  keywords = {conference}
+}
+
+@inproceedings{traugottRolePollsDemocratic2025,
+  title = {The {{Role}} of {{Polls}} in a {{Democratic Society}}},
+  author = {Traugott, Michael and Ma, Yongchao},
+  date = {2025},
+  publisher = {World Association for Public Opinion Research},
+  location = {St. Louis, MO},
+  eventtitle = {78th {{Annual WAPOR Conference}}},
+  keywords = {conference}
+}

@@ -1,0 +1,42 @@
+-- filter-by-keyword.lua
+local citeproc = require "citeproc"
+local list = require "pandoc.List"
+
+-- collect all bibliographic entries once
+local all_items = {}
+
+function Cite (el)
+  all_items[el.id] = true
+end
+
+function Meta (meta)
+  -- load the entire bibliography
+  if meta.bibliography then
+    for _,bib in ipairs(meta.bibliography) do
+      for id,entry in pairs(citeproc.load_bibliography({bib })) do
+        all_items[id] = entry
+      end
+    end
+  end
+  return meta
+end
+
+function Div (div)
+  local kw = div.attributes.keyword
+  if kw and div.classes:includes("bib") then
+    local out = list()
+    for id,entry in pairs(all_items) do
+      if type(entry)=="table" and entry.keyword then
+        for _,tag in ipairs(entry.keyword) do
+          if tag == kw then
+            out:insert(pandoc.Cite({}, {pandoc.Citation({id=id}, {})}))
+            break
+          end
+        end
+      end
+    end
+    -- generate the bibliography block
+    return pandoc.Div(out, {class="references"})
+  end
+  return div
+end

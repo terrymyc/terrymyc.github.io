@@ -1,0 +1,24 @@
+---
+title: "Research"
+bibliography:
+  journal: utils/journal.bib
+  conference: utils/conference.bib
+csl: utils/apa-cv.csl
+filters:
+  - multibib
+  - _extensions/highlight-author.lua
+validate-yaml: false
+nocite: "@*"
+---
+
+## Publications
+
+### Journal Articles
+
+::: {#refs-journal}
+:::
+
+### Conference Presentations
+
+::: {#refs-conference}
+:::

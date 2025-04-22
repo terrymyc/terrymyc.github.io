@@ -1,0 +1,48 @@
+-- split-bib.lua
+local utils           = require "pandoc.utils"
+local run_citeproc    = utils.run_json_filter
+local List            = require "pandoc.List"
+
+-- store the document‐level metadata for later
+local original_meta = {}
+
+function Meta (meta)
+  original_meta = meta
+  return meta
+end
+
+function Div (div)
+  -- look for our two placeholders by class
+  if div.classes:includes("refs-articles")
+  or div.classes:includes("refs-conferences") then
+
+    -- decide which type to pull
+    local want = div.classes:includes("refs-articles")
+               and "article"
+               or "inproceedings"
+
+    -- collect only the refs of that type
+    local pool = original_meta.references or {}
+    local sel  = List{}
+    for _, entry in ipairs(pool) do
+      if entry.t == want then
+        sel:insert(entry)
+      end
+    end
+
+    -- build a minimal Pandoc doc whose metadata
+    -- points to our subset via `references`
+    local meta = pandoc.Meta(original_meta)
+    meta.references = pandoc.MetaList(sel)
+    -- force citeproc to emit a bibliography
+    meta["suppress-bibliography"] = false
+    -- “cite” everything in that subset
+    meta.nocite = pandoc.MetaInlines{pandoc.Str("@*")}
+
+    local stub = pandoc.Pandoc({}, meta)
+    -- run the built‑in citeproc filter on it
+    local out  = run_citeproc("citeproc", stub)
+    return out.blocks
+  end
+  return nil
+end

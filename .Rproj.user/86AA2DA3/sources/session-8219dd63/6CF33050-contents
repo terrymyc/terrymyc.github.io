@@ -1,0 +1,13 @@
+-- highlight-my-name.lua
+local MYNAME = "Ma, Y."
+
+function CiteProcBibliography (items)
+  for _, bibitem in ipairs(items) do
+    for i, el in ipairs(bibitem) do
+      if el.t == "Str" and el.text == MYNAME then
+        bibitem[i] = pandoc.Strong(el)
+      end
+    end
+  end
+  return items
+end

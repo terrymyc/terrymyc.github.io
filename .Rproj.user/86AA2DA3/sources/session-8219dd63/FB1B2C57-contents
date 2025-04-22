@@ -1,0 +1,68 @@
+-- filter-by-keyword.lua
+-- Pandoc Lua filter to include only bibliography items whose 'keywords' field contains "journal".
+-- Place this in your Quarto project (e.g. under _filters/) and reference it in _quarto.yml under 'filters:'.
+
+-- Helper to extract bibliography file paths from metadata
+local function get_bibfiles(meta)
+  local files = {}
+  if not meta.bibliography then
+    return files
+  end
+  if meta.bibliography.t == 'MetaString' then
+    table.insert(files, meta.bibliography.text)
+  elseif meta.bibliography.t == 'MetaList' then
+    for _, item in ipairs(meta.bibliography) do
+      if item.t == 'MetaString' then
+        table.insert(files, item.text)
+      end
+    end
+  end
+  return files
+end
+
+-- Main Meta filter: read .bib, filter by keyword, override meta.references
+function Meta(meta)
+  local bibfiles = get_bibfiles(meta)
+  local filtered_refs = {}
+
+  for _, bibfile in ipairs(bibfiles) do
+    local f = io.open(bibfile, 'r')
+    if not f then
+      io.stderr:write("Warning: could not open bibliography file '" .. bibfile .. "'\n")
+    else
+      local content = f:read('*all')
+      f:close()
+      -- Parse the .bib file (BibLaTeX syntax)
+      local bibdoc = pandoc.read(content, 'biblatex')
+      if bibdoc.meta and bibdoc.meta.references then
+        for _, ref in ipairs(bibdoc.meta.references) do
+          local keep = false
+          -- Check the 'keywords' field
+          local fields = ref.fields or {}
+          local kw = fields.keywords
+          if kw then
+            if type(kw) == 'string' then
+              if kw:lower():match('journal') then keep = true end
+            elseif kw.t == 'MetaList' then
+              for _, v in ipairs(kw) do
+                if v.t == 'MetaString' and v.text:lower():match('journal') then
+                  keep = true
+                  break
+                end
+              end
+            end
+          end
+          if keep then
+            table.insert(filtered_refs, ref)
+          end
+        end
+      end
+    end
+  end
+
+  -- Override the document's references
+  meta.references = filtered_refs
+  -- Prevent Pandoc from re-reading the original .bib
+  meta.bibliography = nil
+  return meta
+end

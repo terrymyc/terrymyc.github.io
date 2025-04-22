@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a Ph.D. candidate in Survey and Data Science at the University of Michigan. I am also a maintainer of ASReview LAB, an open-source AI-based research software."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n University of Michigan | Ann Arbor, MI\nPh.D. in Survey and Data Science | August 2022 – Present\n Utrecht University | The Netherlands\nM.Sc. in Methodology and Statistics | September 2019 – May 2021\n University of Macau\nM.S.Sc. in Criminology and Criminal Justice | August 2017 – June 2019\n Linköping University | Sweden\nExchange, Computational Social Science | August 2018 – January 2019"
+  },
+  {
+    "objectID": "about.html#selected-awards",
+    "href": "about.html#selected-awards",
+    "title": "About",
+    "section": "Selected Awards",
+    "text": "Selected Awards\nCharles Cannell Fund in Survey Methodology, University of Michigan | 2024\nStudent Fellowship, Midwest Association for Public Opinion Research (MAPOR) | 2023\nOutgoing Exchange Scholarship, University of Macau | 2018"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Ma, Y., Mushkudiani, N., & Schouten, B. (forthcoming). An optimal stratification method for addressing nonresponse bias in Bayesian adaptive survey design. Sociological Methods & Research.\n\n\nWest, B. T., Ma, Y., Lankenau, S., Wong, C. F., Bonar, E. E., Patrick, M. E., Walton, M. A., & McCabe, S. E. (2024). Latent transition analysis of time-varying cannabis use motives to inform adaptive interventions. Psychology of Addictive Behaviors, 38(7), 759–771. https://doi.org/10.1037/adb0001012\n\n\nVan De Schoot, R., De Bruin, J., Schram, R., Zahedi, P., De Boer, J., Weijdema, F., Kramer, B., Huijts, M., Hoogerwerf, M., Ferdinands, G., Harkema, A., Willemsen, J., Ma, Y., Fang, Q., Hindriks, S., Tummers, L., & Oberski, D. L. (2021). An open source machine learning framework for efficient and transparent systematic reviews. Nature Machine Intelligence, 3(2), 125–133. https://doi.org/10.1038/s42256-020-00287-7\n\n\n\n\n\n\n\nMa, Y. (2025). Replacing nonresponse modeling with active learning on AI-generated textual descriptions of sample units for efficient survey data collection. 80th Annual AAPOR Conference. https://aapor.confex.com/aapor/2025/meetingapp.cgi/Paper/3983\n\n\nMa, Y. (2025). Stratification method for identifying subgroups requiring different survey data collection strategies. 11th ESRA Conference.\n\n\nMa, Y., & Traugott, M. (2025). Survey attitudes and privacy concerns: Measurement invariance across Germany, the Netherlands, and the United States. 11th ESRA Conference.\n\n\nTraugott, M., & Ma, Y. (2025). Motivated reasoning and acceptance of poll results on a health policy issue. 7th CIPHER Conference. https://dornsife.usc.edu/cesr/wp-content/uploads/sites/54/2025/03/3-Traugott-CIPHER-Presentation-V1.pdf\n\n\nTraugott, M., & Ma, Y. (2025). The relationship between public understanding of polls and their credibility. 80th Annual AAPOR Conference. https://aapor.confex.com/aapor/2025/meetingapp.cgi/Paper/3678\n\n\nTraugott, M., & Ma, Y. (2025). The Role of Polls in a Democratic Society. 78th Annual WAPOR Conference.\n\n\nMa, Y. (2024). Leveraging Survey Variables to Estimate Response Propensity in Bayesian Adaptive Survey Design: A Simulation Study. 79th Annual AAPOR Conference. https://aapor.confex.com/aapor/2024/meetingapp.cgi/Paper/2469\n\n\nMa, Y., West, B. T., & McCabe, S. E. (2024). Daily Web Survey Data Collection to Improve Health: Temporal Dynamics of Cannabis Use Motives and Context, with Implications for Adaptive Interventions. 79th Annual AAPOR Conference. https://aapor.confex.com/aapor/2024/meetingapp.cgi/Paper/2816\n\n\nMa, Y., & Miller, P. V. (2023). Leveraging Survey Variables to Estimate Response Propensity in Bayesian Adaptive Survey Design: A Simulation Study. 48th Annual MAPOR Conference.\n\n\nMa, Y., Mushkudiani, N., & Schouten, B. (2021). An optimal stratification approach for addressing nonresponse bias in Bayesian adaptive survey design. 7th International Workshop on Advances in Adaptive and Responsive Survey Design.\n\n\nMa, Y., Mushkudiani, N., & Schouten, B. (2021). An optimal stratification approach for addressing nonresponse bias in Bayesian adaptive survey design. 9th ESRA Conference. https://www.europeansurveyresearch.org/conf2021/uploads/57/3653/67/Ma_ESRA21.pdf"
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "",
+    "text": "Ma, Y., Mushkudiani, N., & Schouten, B. (forthcoming). An optimal stratification method for addressing nonresponse bias in Bayesian adaptive survey design. Sociological Methods & Research.\n\n\nWest, B. T., Ma, Y., Lankenau, S., Wong, C. F., Bonar, E. E., Patrick, M. E., Walton, M. A., & McCabe, S. E. (2024). Latent transition analysis of time-varying cannabis use motives to inform adaptive interventions. Psychology of Addictive Behaviors, 38(7), 759–771. https://doi.org/10.1037/adb0001012\n\n\nVan De Schoot, R., De Bruin, J., Schram, R., Zahedi, P., De Boer, J., Weijdema, F., Kramer, B., Huijts, M., Hoogerwerf, M., Ferdinands, G., Harkema, A., Willemsen, J., Ma, Y., Fang, Q., Hindriks, S., Tummers, L., & Oberski, D. L. (2021). An open source machine learning framework for efficient and transparent systematic reviews. Nature Machine Intelligence, 3(2), 125–133. https://doi.org/10.1038/s42256-020-00287-7\n\n\n\n\n\n\n\nMa, Y. (2025). Replacing nonresponse modeling with active learning on AI-generated textual descriptions of sample units for efficient survey data collection. 80th Annual AAPOR Conference. https://aapor.confex.com/aapor/2025/meetingapp.cgi/Paper/3983\n\n\nMa, Y. (2025). Stratification method for identifying subgroups requiring different survey data collection strategies. 11th ESRA Conference.\n\n\nMa, Y., & Traugott, M. (2025). Survey attitudes and privacy concerns: Measurement invariance across Germany, the Netherlands, and the United States. 11th ESRA Conference.\n\n\nTraugott, M., & Ma, Y. (2025). Motivated reasoning and acceptance of poll results on a health policy issue. 7th CIPHER Conference. https://dornsife.usc.edu/cesr/wp-content/uploads/sites/54/2025/03/3-Traugott-CIPHER-Presentation-V1.pdf\n\n\nTraugott, M., & Ma, Y. (2025). The relationship between public understanding of polls and their credibility. 80th Annual AAPOR Conference. https://aapor.confex.com/aapor/2025/meetingapp.cgi/Paper/3678\n\n\nTraugott, M., & Ma, Y. (2025). The Role of Polls in a Democratic Society. 78th Annual WAPOR Conference.\n\n\nMa, Y. (2024). Leveraging Survey Variables to Estimate Response Propensity in Bayesian Adaptive Survey Design: A Simulation Study. 79th Annual AAPOR Conference. https://aapor.confex.com/aapor/2024/meetingapp.cgi/Paper/2469\n\n\nMa, Y., West, B. T., & McCabe, S. E. (2024). Daily Web Survey Data Collection to Improve Health: Temporal Dynamics of Cannabis Use Motives and Context, with Implications for Adaptive Interventions. 79th Annual AAPOR Conference. https://aapor.confex.com/aapor/2024/meetingapp.cgi/Paper/2816\n\n\nMa, Y., & Miller, P. V. (2023). Leveraging Survey Variables to Estimate Response Propensity in Bayesian Adaptive Survey Design: A Simulation Study. 48th Annual MAPOR Conference.\n\n\nMa, Y., Mushkudiani, N., & Schouten, B. (2021). An optimal stratification approach for addressing nonresponse bias in Bayesian adaptive survey design. 7th International Workshop on Advances in Adaptive and Responsive Survey Design.\n\n\nMa, Y., Mushkudiani, N., & Schouten, B. (2021). An optimal stratification approach for addressing nonresponse bias in Bayesian adaptive survey design. 9th ESRA Conference. https://www.europeansurveyresearch.org/conf2021/uploads/57/3653/67/Ma_ESRA21.pdf"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Sampling Program for Survey Statisticians, University of Michigan\n\nGuest Lecturer\n\nSURVMETH 614: Analysis of Complex Sample Survey Data | Summer 2024\n\n\n\nGrader\n\nSURVMETH 616: Workshop in Survey Sampling Techniques | Summer 2024\nSURVMETH 625: Methods of Survey Sampling | Summer 2024"
+  }
+]

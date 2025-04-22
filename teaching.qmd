@@ -1,0 +1,15 @@
+---
+title: "Teaching"
+---
+
+### Sampling Program for Survey Statisticians, University of Michigan
+
+#### Guest Lecturer
+
+- SURVMETH 614: Analysis of Complex Sample Survey Data \| Summer 2024
+
+#### Grader
+
+- SURVMETH 616: Workshop in Survey Sampling Techniques \| Summer 2024
+
+- SURVMETH 625: Methods of Survey Sampling \| Summer 2024

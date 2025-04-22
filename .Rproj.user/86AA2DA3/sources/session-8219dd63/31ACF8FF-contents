@@ -1,0 +1,28 @@
+-- filter-by-keyword.lua
+local target
+
+function Div(el)
+  -- Look for our two “slots”
+  if el.identifier == "refs-journal" then
+    target = "journal"
+  elseif el.identifier == "refs-conference" then
+    target = "conference"
+  else
+    return el
+  end
+
+  -- Build a list of citation nodes for matching entries
+  local cites = {}
+  for _, entry in ipairs(PANDOC.bibliography) do
+    local kws = entry.fields and entry.fields.keywords or ""
+    for kw in kws:gmatch("([^,]+)") do
+      if kw:match("^%s*" .. target .. "%s*$") then
+        table.insert(cites, pandoc.Cite({}, { pandoc.Str(entry.id) }))
+        break
+      end
+    end
+  end
+
+  -- Let citeproc render _only_ those citations here
+  return pandoc.Div(cites, el.attr)
+end
