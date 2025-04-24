@@ -3,6 +3,7 @@ title: "Research"
 bibliography:
   journal: utils/journal.bib
   conference: utils/conference.bib
+  talk: utils/talk.bib
 csl: utils/apa-cv.csl
 filters:
   - multibib
@@ -11,7 +12,10 @@ validate-yaml: false
 nocite: "@*"
 ---
 
-## Publications
+## Publications & Talks
+
+That an article appears in a peer-reviewed journal only means that two or three reviewers and the editor have agreed it is worth publishing. It does not mean that the conclusions are correct or that the findings are important.
+
 
 ### Journal Articles
 
@@ -21,4 +25,9 @@ nocite: "@*"
 ### Conference Presentations
 
 ::: {#refs-conference}
+:::
+
+### Invited Talks
+
+::: {#refs-talk}
 :::

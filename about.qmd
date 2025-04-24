@@ -1,8 +1,11 @@
 ---
 title: "About"
+format:
+  html:
+    toc: false
 ---
 
-I am a Ph.D. candidate in [Survey and Data Science](https://surveydatascience.isr.umich.edu) at the University of Michigan. I am also a maintainer of [ASReview LAB](https://asreview.nl), an open-source AI-based research software.
+I am a Ph.D. candidate in [Survey and Data Science](https://surveydatascience.isr.umich.edu) (formerly Survey Methodology) at the University of Michigan and a maintainer of [ASReview LAB](https://asreview.nl), an open-source AI-based research software. I don't like to call myself a "data scientist," as data science is simply an inane rebrand of statistical and computational techniques applied to domain problems---nothing new for scientific research beyond the marketing hype.
 
 ## Education
 

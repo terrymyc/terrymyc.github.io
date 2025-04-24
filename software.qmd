@@ -1,0 +1,28 @@
+---
+title: "Software"
+format:
+  html:
+    include-in-header:
+      - text: |
+          <script async defer src="https://buttons.github.io/buttons.js"></script>
+---
+
+#### ASReview: Active learning for systematic reviews
+<a class="github-button"
+   href="https://github.com/asreview/asreview"
+   data-size="large"
+   data-show-count="true"
+   aria-label="Star asreview/asreview on GitHub">
+  Star
+</a>
+
+
+#### ASReview-wordcloud: A tool to create a visual impression of the verbal content within a systematic review dataset
+<a class="github-button"
+   href="https://github.com/asreview/asreview-wordcloud"
+   data-size="large"
+   data-show-count="true"
+   aria-label="Star asreview/asreview on GitHub">
+  Star
+</a>
+

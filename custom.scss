@@ -1,0 +1,10 @@
+/*-- scss:defaults --*/
+// Tells the Bootstrap theme to use Roboto Serif everywhere
+$font-family-sans-serif: 'Roboto Serif' !default;
+$font-family-serif:      'Roboto Serif' !default;
+
+/*-- scss:rules --*/
+// Just in case some elements need an explicit rule
+body {
+  font-family: 'Roboto Serif';
+}
