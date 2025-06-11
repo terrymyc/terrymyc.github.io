@@ -1,4 +1,6 @@
+/_extensions/
 /.quarto/
+_quarto.yml
 .DS_Store
-.Rproj.user
+/.Rproj.user/
 .Rhistory
