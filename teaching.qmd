@@ -5,12 +5,17 @@ format:
     toc: false
 ---
 
-### Sampling Program for Survey Statisticians, University of Michigan
+## University of Michigan, Ann Arbor --- 2024 Summer
+**Institute for Social Research**  
+*77th [Summer Institute in Survey Research Techniques](https://si.isr.umich.edu/)*  
+*55th [Sampling Program for Survey Statisticians](https://si.isr.umich.edu/course-offerings/sampling-program-for-survey-statisticians/)*
 
-#### Teaching Assistant / Guest Lecturer
+### Teaching Assistant
+- **SURVMETH 614 · Analysis of Complex Sample Survey Data**
+- **SURVMETH 616 · Workshop in Survey Sampling Techniques**
+- **SURVMETH 625 · Methods of Survey Sampling**
 
-- SURVMETH 614: Analysis of Complex Sample Survey Data \| Summer 2024
-
-- SURVMETH 616: Workshop in Survey Sampling Techniques \| Summer 2024
-
-- SURVMETH 625: Methods of Survey Sampling \| Summer 2024
+### Guest Lecturer
+- **SURVMETH 614 · Analysis of Complex Sample Survey Data**
+  - Logistic regression [[slides]](files/SURVMETH614_MOD10_2024Summer.pdf)
+  - Multilevel modeling [[slides]](files/SURVMETH614_MOD15_2024Summer.pdf)
