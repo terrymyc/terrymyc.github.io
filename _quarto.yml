@@ -18,7 +18,7 @@ website:
       - teaching.qmd
       - software.qmd
       - text: CV
-        href: Ma_CV.pdf
+        href: files/Ma_CV.pdf
   google-analytics: G-J3JH393N54
   page-footer: "&copy; 2025 Yongchao Ma"
 
