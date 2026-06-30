@@ -5,14 +5,12 @@ format:
     toc: false
 ---
 
-I am a Ph.D. candidate in [Survey and Data Science](https://surveydatascience.isr.umich.edu) (formerly Survey Methodology) at the University of Michigan and a maintainer of [ASReview LAB](https://asreview.nl), an open-source AI-based research software.
 
 ## Education
 
 {{< iconify fa6-solid graduation-cap >}} **University of Michigan** \| Ann Arbor, MI
 
-Ph.D. in Survey and Data Science \| August 2022 -- Present
-
+Ph.D. in Survey and Data Science \| August 2022 -- May 2026
 
 {{< iconify fa6-solid graduation-cap >}} **Utrecht University** \| The Netherlands
 

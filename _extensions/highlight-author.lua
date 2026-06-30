@@ -1,44 +1,43 @@
--- highlight-my-name.lua
+-- _extensions/highlight-author.lua
 
-local SURNAME = "Ma,"
-local GIVEN   = "Yongchao"
-
--- process a Para block of inlines, merging Surname + Space + Given into a Strong
-local function process_para(para)
-  local inls, out = para.content, {}
+local function highlight_author(inlines)
+  local out = {}
   local i = 1
-  while i <= #inls do
-    local el = inls[i]
-    -- look ahead for the exact pattern: Str "Ma,", Space, Str "Yongchao"
-    if i+2 <= #inls
-      and el.t == "Str" and el.text == SURNAME
-      and inls[i+1].t == "Space"
-      and inls[i+2].t == "Str" and inls[i+2].text == GIVEN
-    then
-      -- wrap those three in a Strong
-      out[#out+1] = pandoc.Strong({ el, inls[i+1], inls[i+2] })
+  while i <= #inlines do
+    -- Check for "Ma," -> Space -> "Y." OR "Y.," OR "Yongchao" OR "Yongchao,"
+    if i + 2 <= #inlines
+       and inlines[i].t == "Str" and inlines[i].text == "Ma,"
+       and inlines[i+1].t == "Space"
+       and inlines[i+2].t == "Str" 
+       and (inlines[i+2].text == "Yongchao" or inlines[i+2].text == "Yongchao," 
+            or inlines[i+2].text == "Y." or inlines[i+2].text == "Y.,") then
+      
+      -- Wrap the matching elements in bold (Strong)
+      out[#out+1] = pandoc.Strong({ inlines[i], inlines[i+1], inlines[i+2] })
       i = i + 3
     else
-      out[#out+1] = el
+      -- Pass through unchanged
+      out[#out+1] = inlines[i]
       i = i + 1
     end
   end
-  para.content = out
-  return para
+  return out
 end
 
 return {
   {
-    -- target the Div that Quarto/Pandoc puts your bibliography into
     Div = function(div)
-      if div.classes:includes("references") or div.classes:includes("csl-bib-body") then
-        -- walk every block (usually Paras) and process them
-        for idx, blk in ipairs(div.content) do
-          if blk.t == "Para" then
-            div.content[idx] = process_para(blk)
+      if div.classes:includes("csl-entry") then
+        return pandoc.walk_block(div, {
+          Plain = function(el)
+            el.content = highlight_author(el.content)
+            return el
+          end,
+          Para = function(el)
+            el.content = highlight_author(el.content)
+            return el
           end
-        end
-        return div
+        })
       end
     end
   }

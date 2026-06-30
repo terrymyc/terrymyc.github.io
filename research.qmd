@@ -26,8 +26,3 @@ That an article appears in a peer-reviewed journal only means that two or three 
 
 ::: {#refs-conference}
 :::
-
-### Invited Talks
-
-::: {#refs-talk}
-:::
