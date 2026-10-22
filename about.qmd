@@ -1,34 +1,16 @@
 ---
 title: "About"
-format:
-  html:
-    toc: false
 ---
 
-
-## Education
-
-{{< iconify fa6-solid graduation-cap >}} **University of Michigan** \| Ann Arbor, MI
-
-Ph.D. in Survey and Data Science \| August 2022 -- May 2026
-
-{{< iconify fa6-solid graduation-cap >}} **Utrecht University** \| The Netherlands
-
-M.Sc. in Methodology and Statistics \| September 2019 -- May 2021
-
-{{< iconify fa6-solid graduation-cap >}} **University of Macau**
-
-M.S.Sc. in Criminology and Criminal Justice \| August 2017 -- June 2019
-
-{{< iconify fa6-solid certificate >}} **Linköping University** \| Sweden
-
-Exchange, Computational Social Science \| August 2018 -- January 2019
-
-
-## Selected Awards
-
-Charles Cannell Fund in Survey Methodology, University of Michigan \| 2024
-
-Student Fellowship, Midwest Association for Public Opinion Research (MAPOR) \| 2023
-
-Outgoing Exchange Scholarship, University of Macau \| 2018
+```{=html}
+<p>I am a social science methodologist and statistician working at the intersection of survey research, computational social science, and artificial intelligence. I earned my Ph.D. in Survey and Data Science from the University of Michigan in 2026.</p>
+<p>My research asks how we can collect informative social data with limited resources. I develop methods for identifying groups that need different recruitment approaches, understanding who participates in surveys, and using AI to support data collection decisions. My collaborative work also examines health behavior, attitudes toward surveys, and public understanding of polls.</p>
+<p>Alongside my research, I contribute to open-source software. As a research engineer at Utrecht University, I developed interfaces and supporting infrastructure for ASReview LAB, which uses active learning to assist systematic reviewing. I continued contributing as a volunteer maintainer after that appointment.</p>
+<h2>Education</h2>
+<article class="work"><span class="meta">2026</span><div><h3>Ph.D. in Survey and Data Science</h3><p>University of Michigan</p></div></article>
+<article class="work"><span class="meta">2021</span><div><h3>M.Sc. in Methodology and Statistics, <em>cum laude</em></h3><p>Utrecht University<br>European Master in Official Statistics track</p></div></article>
+<article class="work"><span class="meta">2019</span><div><h3>M.S.Sc. in Criminology and Criminal Justice</h3><p>University of Macau</p></div></article>
+<article class="work"><span class="meta">2018–2019</span><div><h3>Graduate exchange in Computational Social Science</h3><p>Linköping University</p></div></article>
+<h2>Selected fellowships and awards</h2>
+<ul><li>Rackham One-Term Dissertation Fellowship, University of Michigan, 2026</li><li>Charles Cannell Fund in Survey Methodology, University of Michigan, 2024–2025</li><li>Student Fellowship, Midwest Association for Public Opinion Research, 2023</li><li>Outgoing Exchange Scholarship, University of Macau, 2018</li></ul>
+```

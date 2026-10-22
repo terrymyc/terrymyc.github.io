@@ -7,22 +7,16 @@ format:
           <script async defer src="https://buttons.github.io/buttons.js"></script>
 ---
 
-#### ASReview: Active learning for systematic reviews
-<a class="github-button"
-   href="https://github.com/asreview/asreview"
-   data-size="large"
-   data-show-count="true"
-   aria-label="Star asreview/asreview on GitHub">
-  Star
-</a>
-
-
-#### ASReview-wordcloud: A tool to create a visual impression of the verbal content within a systematic review dataset
-<a class="github-button"
-   href="https://github.com/asreview/asreview-wordcloud"
-   data-size="large"
-   data-show-count="true"
-   aria-label="Star asreview/asreview on GitHub">
-  Star
-</a>
-
+```{=html}
+<p>I contribute to research software that makes computational methods accessible in everyday research practice.</p>
+<h2>ASReview LAB</h2>
+<h3>Active learning for systematic reviews</h3>
+<p>ASReview LAB helps researchers screen large collections of titles and abstracts. It learns from screening decisions to prioritize records for further review.</p>
+<p>My contributions include developing interfaces in React and REST APIs connecting the interface to Python servers, contributing to the first stable release, writing documentation, and improving usability through user feedback. I continued as a volunteer maintainer after my research-engineer appointment at Utrecht University.</p>
+<div class="actions"><a href="https://github.com/asreview/asreview" target="_blank" rel="noopener">View project ↗</a><a class="github-button" href="https://github.com/asreview/asreview" target="_blank" rel="noopener" aria-label="Star ASReview on GitHub" data-size="large" data-show-count="true">Star</a></div>
+<h2>ASReview-wordcloud</h2>
+<h3>Exploring the text in review datasets</h3>
+<p>ASReview-wordcloud creates word-cloud visualizations from systematic review datasets, offering a quick impression of their textual content.</p>
+<p>My work included processing dataset metadata in Python and developing visualizations of titles and abstracts.</p>
+<div class="actions"><a href="https://github.com/asreview/asreview-wordcloud" target="_blank" rel="noopener">View project ↗</a><a class="github-button" href="https://github.com/asreview/asreview-wordcloud" target="_blank" rel="noopener" aria-label="Star ASReview-wordcloud on GitHub" data-size="large" data-show-count="true">Star</a></div>
+```

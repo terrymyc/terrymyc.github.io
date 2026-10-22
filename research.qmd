@@ -12,17 +12,34 @@ validate-yaml: false
 nocite: "@*"
 ---
 
-## Publications & Talks
+```{=html}
+<p>My research focuses on improving the quality and efficiency of survey data collection. I study how recruitment decisions affect who responds and how well survey findings reflect the population. I combine statistical methods, simulation studies, and computational tools to investigate these questions.</p>
+<p>My collaborative research extends to health behavior, survey attitudes, and how people understand and evaluate public opinion polls.</p>
+<h2 id="research-section-0">Doctoral dissertation</h2>
+<h3>On Effective and Efficient Survey Data Collection at the Crossroads of Statistics and Artificial Intelligence</h3>
+<p class="meta">University of Michigan, 2026</p>
+<p>My dissertation investigates three ways to improve survey data collection: identifying groups that may benefit from different recruitment strategies; using predicted survey answers to help estimate participation; and using AI-generated profiles to prioritize recruitment.</p>
+<a href="https://deepblue.lib.umich.edu/bitstreams/d2da21b3-0d2a-40e0-97eb-476942635749/download" target="_blank" rel="noopener" class="dissertation-download">Read dissertation · PDF ↗</a>
+<h2 id="research-section-1">Manuscripts in preparation</h2>
+<p>The analyses for the three dissertation studies are complete, and manuscripts are being prepared for submission. Titles below are working titles.</p>
+<article class="work"><span class="meta">In preparation</span><div><h3>A Stratification Method for Evaluating and Improving the Representativeness of Survey Response</h3><p>Develops a method for grouping potential respondents by their estimated chances of participating, helping researchers decide where to direct different data collection strategies.</p></div></article>
+<article class="work"><span class="meta">In preparation</span><div><h3>Leveraging Survey Variables to Estimate Response Propensity in Adaptive Survey Design</h3><p>Examines whether predicting survey answers before estimating participation can help researchers design recruitment strategies that reduce bias in survey findings.</p></div></article>
+<article class="work"><span class="meta">In preparation</span><div><h3>Predicting Survey Participation from LLM-generated Profiles Improves Recruitment Efficiency</h3><p>Investigates a recruitment approach that converts background information into textual profiles and uses active learning to prioritize outreach. The study evaluates this approach through simulation using existing survey data.</p></div></article>
+<h2 id="research-section-2">Collaborative work in preparation</h2>
+<ul><li>The relationship between public understanding of polls and their credibility</li><li>Survey Attitudes and Privacy Concerns: Measurement Invariance across Germany, the Netherlands, and the United States</li><li>Survey Attitudes and Survey Participation—and Vice Versa</li></ul>
+```
 
-That an article appears in a peer-reviewed journal only means that two or three reviewers and the editor have agreed it is worth publishing. It does not mean that the conclusions are correct or that the findings are important.
-
-
-### Journal Articles
+## Journal Articles
 
 ::: {#refs-journal}
 :::
 
-### Conference Presentations
+## Conference Presentations
 
 ::: {#refs-conference}
+:::
+
+## Invited Talks
+
+::: {#refs-talk}
 :::

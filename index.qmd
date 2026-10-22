@@ -1,18 +1,8 @@
 ---
-title: "Yongchao Ma"
-subtitle: "Social Science Methodologist and Statistician"
-about:
-  template: jolla
-  image: image/profile.jpg
-  links:
-    - text: "{{< iconify fa6-solid envelope >}}"
-      href: mailto:ytma@umich.edu
-    - text: "{{< iconify fa6-brands google-scholar >}}"
-      href: https://scholar.google.com/citations?user=1pKheqkAAAAJ&hl=en
-    - text: "{{< iconify fa6-brands orcid >}}"
-      href: https://orcid.org/0000-0003-4100-5468
-    - icon: linkedin
-      href: https://www.linkedin.com/in/yongchao-ma
-    - icon: github
-      href: https://github.com/terrymyc
+pagetitle: "Yongchao Ma | Social Science Methodologist and Statistician"
 ---
+
+```{=html}
+<div class="home-content"><section class="hero"><div><p class="eyebrow">Yongchao Ma, Ph.D.</p><p class="eyebrow">Social Science Methodologist and Statistician</p><h1>Better data.<br>Stronger social science.</h1><p>I develop statistical and computational methods to improve how social data are collected. My research examines how to use limited resources to obtain survey responses that better reflect the population being studied, including through adaptive survey design and AI-assisted recruitment.</p><p>I earned my Ph.D. in Survey and Data Science from the University of Michigan in 2026. My work also spans health behavior, attitudes toward surveys, public understanding of polls, and open-source research software.</p><div class="actions"><a href="research.html" class="primary-action">Explore my research</a><a href="mailto:ytma@umich.edu">Get in touch ↗</a></div></div><img class="portrait" src="image/profile.jpg" alt="Yongchao Ma" width="180" height="225"></section><div class="themes"><span>Survey design and participation</span><span>Computational social science</span><span>AI-assisted data collection</span></div><h2>Selected work</h2><article class="work"><span class="meta">2026</span><div><p class="meta">Sociological Methods &amp; Research</p><h3>Addressing nonresponse bias through adaptive survey design</h3><p>A stratification method that uses predicted survey outcomes to identify groups for tailored data collection strategies.</p><a href="https://doi.org/10.1177/00491241251345463" target="_blank" rel="noopener">Read paper ↗</a></div></article><article class="work"><span class="meta">2026</span><div><p class="meta">Drug and Alcohol Dependence</p><h3>Understanding cannabis use through daily web surveys</h3><p>A pilot study of changing cannabis use motives and contexts, with implications for adaptive interventions.</p><a href="https://doi.org/10.1016/j.drugalcdep.2025.112974" target="_blank" rel="noopener">Read paper ↗</a></div></article><article class="work"><span class="meta">2021</span><div><p class="meta">Nature Machine Intelligence</p><h3>Machine learning for systematic reviews</h3><p>Co-authored research introducing ASReview, an open-source framework for efficient and transparent systematic reviewing.</p><a href="https://doi.org/10.1038/s42256-020-00287-7" target="_blank" rel="noopener">Read paper ↗</a></div></article><div class="columns"><section><h2>Doctoral research</h2><p>On Effective and Efficient Survey Data Collection at the Crossroads of Statistics and Artificial Intelligence</p><a href="https://deepblue.lib.umich.edu/bitstreams/d2da21b3-0d2a-40e0-97eb-476942635749/download" class="text-link" target="_blank" rel="noopener">Read dissertation · PDF ↗</a></section><section><h2>Research software</h2><p>Open-source tools for active-learning-assisted reviewing and exploring text in review datasets.</p><a href="software.html" class="text-link">Explore the projects →</a></section></div></div>
+
+```

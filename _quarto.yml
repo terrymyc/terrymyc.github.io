@@ -1,15 +1,18 @@
 project:
   type: website
   output-dir: docs
-  
-extensions:
-  - mcanouil/quarto-iconify@latest
+  resources:
+    - CNAME
+    - files/**
+    - image/**
 
 website:
   title: "Yongchao Ma"
-  description: "Yongchao Ma's personal website"
+  site-url: https://yongchaoma.com
+  description: "Yongchao Ma, Ph.D. — social science methodologist and statistician working on survey design, participation, and AI-assisted data collection."
   search: false
   navbar:
+    background: light
     left:
       - href: index.qmd
         text: Home
@@ -20,20 +23,29 @@ website:
       - text: CV
         href: files/Ma_CV.pdf
   google-analytics: G-J3JH393N54
-  page-footer: "&copy; 2025 Yongchao Ma"
+  page-footer:
+    left: "© <span id='copyright-year'>2026</span> Yongchao Ma"
+    right:
+      - text: Email
+        href: mailto:ytma@umich.edu
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=1pKheqkAAAAJ&hl=en
+      - text: ORCID
+        href: https://orcid.org/0000-0003-4100-5468
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/yongchao-ma
+      - text: GitHub
+        href: https://github.com/terrymyc
 
 format:
   html:
-    include-in-header:
-      - text: |
-          <link rel="preconnect" href="https://fonts.googleapis.com">
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-          <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
     theme:
       - cosmo
       - custom.scss
-    toc: true
+    toc: false
+    anchor-sections: true
+    link-external-newwindow: true
+    include-after-body: footer.html
 
 execute:
   freeze: auto
-
