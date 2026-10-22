@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -35,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c539d909275f7d33cd765a71db626d87.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6f6e17bdd619e945446bae4e8056a443.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -63,15 +66,12 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-J3JH393N54', { 'anonymize_ip': true});
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&amp;display=swap" rel="stylesheet">
 <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
 
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -122,9 +122,7 @@ gtag('config', 'G-J3JH393N54', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -147,18 +145,27 @@ gtag('config', 'G-J3JH393N54', { 'anonymize_ip': true});
 </header>
 
 
-<section id="asreview-active-learning-for-systematic-reviews" class="level4">
-<h4 class="anchored" data-anchor-id="asreview-active-learning-for-systematic-reviews">ASReview: Active learning for systematic reviews</h4>
-<p><a class="github-button" href="https://github.com/asreview/asreview" data-size="large" data-show-count="true" aria-label="Star asreview/asreview on GitHub"> Star </a></p>
-</section>
-<section id="asreview-wordcloud-a-tool-to-create-a-visual-impression-of-the-verbal-content-within-a-systematic-review-dataset" class="level4">
-<h4 class="anchored" data-anchor-id="asreview-wordcloud-a-tool-to-create-a-visual-impression-of-the-verbal-content-within-a-systematic-review-dataset">ASReview-wordcloud: A tool to create a visual impression of the verbal content within a systematic review dataset</h4>
-<p><a class="github-button" href="https://github.com/asreview/asreview-wordcloud" data-size="large" data-show-count="true" aria-label="Star asreview/asreview on GitHub"> Star </a></p>
+<p>I contribute to research software that makes computational methods accessible in everyday research practice.</p>
+<h2 class="anchored">ASReview LAB</h2>
+<h3 class="anchored">Active learning for systematic reviews</h3>
+<p>ASReview LAB helps researchers screen large collections of titles and abstracts. It learns from screening decisions to prioritize records for further review.</p>
+<p>My contributions include developing interfaces in React and REST APIs connecting the interface to Python servers, contributing to the first stable release, writing documentation, and improving usability through user feedback. I continued as a volunteer maintainer after my research-engineer appointment at Utrecht University.</p>
+<div class="actions"><a href="https://github.com/asreview/asreview" target="_blank" rel="noopener">View project ↗</a><a class="github-button" href="https://github.com/asreview/asreview" target="_blank" rel="noopener" aria-label="Star ASReview on GitHub" data-size="large" data-show-count="true">Star</a></div>
+<h2 class="anchored">ASReview-wordcloud</h2>
+<h3 class="anchored">Exploring the text in review datasets</h3>
+<p>ASReview-wordcloud creates word-cloud visualizations from systematic review datasets, offering a quick impression of their textual content.</p>
+<p>My work included processing dataset metadata in Python and developing visualizations of titles and abstracts.</p>
+<div class="actions"><a href="https://github.com/asreview/asreview-wordcloud" target="_blank" rel="noopener">View project ↗</a><a class="github-button" href="https://github.com/asreview/asreview-wordcloud" target="_blank" rel="noopener" aria-label="Star ASReview-wordcloud on GitHub" data-size="large" data-show-count="true">Star</a></div>
 
 
-</section>
 
 </main> <!-- /main -->
+<script>
+(() => {
+  const year = document.getElementById('copyright-year');
+  if (year) year.textContent = new Date().getFullYear();
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -246,6 +253,11 @@ gtag('config', 'G-J3JH393N54', { 'anonymize_ip': true});
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -563,13 +575,39 @@ gtag('config', 'G-J3JH393N54', { 'anonymize_ip': true});
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+<p>© <span id="copyright-year">2026</span> Yongchao Ma</p>
+</div>   
     <div class="nav-footer-center">
-<p>© 2025 Yongchao Ma</p>
-</div>
-    <div class="nav-footer-right">
       &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:ytma@umich.edu">
+<p>Email</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=1pKheqkAAAAJ&amp;hl=en">
+<p>Google Scholar</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0000-0003-4100-5468">
+<p>ORCID</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/yongchao-ma">
+<p>LinkedIn</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/terrymyc">
+<p>GitHub</p>
+</a>
+  </li>  
+</ul>
     </div>
   </div>
 </footer>
