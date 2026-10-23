@@ -45,6 +45,7 @@ format:
     toc: false
     anchor-sections: true
     link-external-newwindow: true
+    include-in-header: theme-init.html
     include-after-body: footer.html
 
 execute:

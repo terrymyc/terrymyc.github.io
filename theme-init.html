@@ -1,0 +1,9 @@
+<script>
+(() => {
+  let preference = 'system';
+  try { preference = localStorage.getItem('ma-site-theme') || 'system'; } catch (_) {}
+  const dark = preference === 'system' ? matchMedia('(prefers-color-scheme: dark)').matches : preference === 'dark';
+  document.documentElement.classList.toggle('site-dark', dark);
+  document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
+})();
+</script>

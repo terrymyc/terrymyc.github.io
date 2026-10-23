@@ -58,3 +58,31 @@ p { margin-bottom: 18px; }
   .work { grid-template-columns: 1fr; gap: 3px; }
   .nav-footer { margin-inline: 20px; }
 }
+
+/* Year labels: align labels without changing citation content. */
+.work { grid-template-columns: 100px minmax(0, 1fr); align-items: first baseline; }
+.work > div > :first-child { margin-top: 0; }
+.csl-entry.year-entry { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 20px; align-items: first baseline; padding: 22px 0; margin: 0; border-top: 1px solid var(--ma-rule); text-indent: 0; }
+.citation-year { font: 12px/1.65 Arial, sans-serif; color: var(--ma-muted); }
+.citation-body { min-width: 0; }
+.citation-body > :first-child { margin-top: 0; }
+#refs-journal, #refs-conference, #refs-talk { margin-left: 0; }
+#theme-toggle { border: 1px solid var(--ma-rule); border-radius: 50%; background: transparent; color: inherit; width: 40px; height: 40px; margin-left: 16px; flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; }
+html.site-dark body { color-scheme: dark; --ma-muted: #adbbb3; --ma-rule: #3c4d43; --bs-body-bg: #191e1c; --bs-body-color: #e6ece8; background: #191e1c; color: #e6ece8; }
+html.site-dark body .navbar, html.site-dark body #quarto-header { background: #191e1c !important; }
+html.site-dark body .navbar-brand, html.site-dark body .nav-link, html.site-dark body h1, html.site-dark body h2, html.site-dark body h3 { color: #e6ece8 !important; }
+html.site-dark body a, html.site-dark body .nav-footer-right .nav-link { color: #a2d4b7; }
+html.site-dark body .navbar-toggler-icon { filter: invert(1); }
+html.site-dark body .nav-footer { color: #adbbb3; }
+@media (max-width: 767px) { .work, .csl-entry.year-entry { grid-template-columns: 1fr; gap: 6px; align-items: start; } }
+
+/* Remove CSL hanging indents from the complete year-and-citation row. */
+#refs-journal, #refs-conference, #refs-talk { text-indent: 0; }
+.references.hanging-indent > .csl-entry.year-entry { margin-left: 0; padding-left: 0; text-indent: 0; }
+.csl-entry.year-entry > .citation-year, .csl-entry.year-entry > .citation-body { text-indent: 0; }
+
+#theme-toggle { color: #253b34; order: 3; }
+html.site-dark #theme-toggle { color: #e6ece8; }
+html.site-dark body .primary-action { background: #a2d4b7; color: #191e1c; }
+html.site-dark body .primary-action:hover { background: #c1e5d0; color: #191e1c; }
+.work p.meta { font-size: 12px; }
