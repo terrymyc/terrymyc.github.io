@@ -15,31 +15,51 @@ nocite: "@*"
 ```{=html}
 <p>My research focuses on improving the quality and efficiency of survey data collection. I study how recruitment decisions affect who responds and how well survey findings reflect the population. I combine statistical methods, simulation studies, and computational tools to investigate these questions.</p>
 <p>My collaborative research extends to health behavior, survey attitudes, and how people understand and evaluate public opinion polls.</p>
-<h2 id="research-section-0">Doctoral dissertation</h2>
-<h3>On Effective and Efficient Survey Data Collection at the Crossroads of Statistics and Artificial Intelligence</h3>
-<p class="meta">University of Michigan, 2026</p>
-<p>My dissertation investigates three ways to improve survey data collection: identifying groups that may benefit from different recruitment strategies; using predicted survey answers to help estimate participation; and using AI-generated profiles to prioritize recruitment.</p>
-<a href="https://deepblue.lib.umich.edu/bitstreams/d2da21b3-0d2a-40e0-97eb-476942635749/download" target="_blank" rel="noopener" class="dissertation-download">Read dissertation · PDF ↗</a>
-<h2 id="research-section-1">Manuscripts in preparation</h2>
-<article class="work"><span class="meta">In preparation</span><div><h3>A Stratification Method for Evaluating and Improving the Representativeness of Survey Response</h3><p>Develops a method for grouping potential respondents by their estimated chances of participating, helping researchers decide where to direct different data collection strategies.</p></div></article>
-<article class="work"><span class="meta">In preparation</span><div><h3>Leveraging Survey Variables to Estimate Response Propensity in Adaptive Survey Design</h3><p>Examines whether predicting survey answers before estimating participation can help researchers design recruitment strategies that reduce bias in survey findings.</p></div></article>
-<article class="work"><span class="meta">In preparation</span><div><h3>Predicting Survey Participation from LLM-generated Profiles Improves Recruitment Efficiency</h3><p>Investigates a recruitment approach that converts background information into textual profiles and uses active learning to prioritize outreach. The study evaluates this approach through simulation using existing survey data.</p></div></article>
-<article class="work"><span class="meta">In preparation</span><div><h3>The relationship between public understanding of polls and their credibility</h3><p>Examines how people’s understanding of polling and agreement with poll results relate to perceived credibility. In a survey experiment, respondents found results more credible when those results aligned with their own views, while understanding of polling showed smaller and less consistent relationships with credibility.</p></div></article>
-<article class="work"><span class="meta">In preparation</span><div><h3>Survey Attitudes and Privacy Concerns: Measurement Invariance across Germany, the Netherlands, and the United States</h3><p>Examines whether questions about survey enjoyment, value, and burden measure attitudes comparably across three countries. The study finds a shared broad structure but important differences in how respondents interpret and answer individual questions, particularly those concerning privacy, complicating direct cross-national comparisons.</p></div></article>
-<article class="work"><span class="meta">In preparation</span><div><h3>Survey Attitudes and Survey Participation—and Vice Versa</h3><p>Links survey attitudes with participation records before and after an attitude survey in the Understanding America Study. Enjoyment of answering questionnaires was associated with both earlier and subsequent participation, while perceived exhaustion was associated with earlier participation over a shorter period.</p><a href="https://youtu.be/0C45tHPmJrc?si=XyjWhfdLeymGcQ0q" target="_blank" rel="noopener">Watch presentation ↗</a></div></article>
+<nav class="research-nav" aria-label="On this page">
+<p class="research-nav-label">On this page</p>
+<ul>
+<li><a href="#journal-articles">Journal articles</a></li>
+<li><a href="#research-section-1">Manuscripts in preparation</a></li>
+<li><a href="#research-section-0">Dissertation</a></li>
+<li><a href="#conference-presentations">Conference presentations</a></li>
+<li><a href="#invited-talks">Invited talks</a></li>
+</ul>
+</nav>
 ```
 
-## Journal Articles
+## Journal articles
+
+That an article appears in a peer-reviewed journal only means that two or three reviewers and the editor have agreed it is worth publishing. It does not mean that the conclusions are correct or that the findings are important.
 
 ::: {#refs-journal}
 :::
 
-## Conference Presentations
+## Manuscripts in preparation {#research-section-1}
+
+```{=html}
+<article class="work"><span class="meta">In preparation</span><div><h3>A stratification method for evaluating and improving the representativeness of survey response</h3><p>Develops a method for grouping potential respondents by their estimated chances of participating, helping researchers decide where to direct different data collection strategies.</p></div></article>
+<article class="work"><span class="meta">In preparation</span><div><h3>Leveraging survey variables to estimate response propensity in adaptive survey design</h3><p>Examines whether predicting survey answers before estimating participation can help researchers design recruitment strategies that reduce bias in survey findings.</p></div></article>
+<article class="work"><span class="meta">In preparation</span><div><h3>Predicting survey participation from LLM-generated profiles improves recruitment efficiency</h3><p>Investigates a recruitment approach that converts background information into textual profiles and uses active learning to prioritize outreach. The study evaluates this approach through simulation using existing survey data.</p></div></article>
+<article class="work"><span class="meta">In preparation</span><div><h3>The relationship between public understanding of polls and their credibility</h3><p>Examines how people’s understanding of polling and agreement with poll results relate to perceived credibility. In a survey experiment, respondents found results more credible when those results aligned with their own views, while understanding of polling showed smaller and less consistent relationships with credibility.</p></div></article>
+<article class="work"><span class="meta">In preparation</span><div><h3>Survey attitudes and privacy concerns: Measurement invariance across Germany, the Netherlands, and the United States</h3><p>Examines whether questions about survey enjoyment, value, and burden measure attitudes comparably across three countries. The study finds a shared broad structure but important differences in how respondents interpret and answer individual questions, particularly those concerning privacy, complicating direct cross-national comparisons.</p></div></article>
+<article class="work"><span class="meta">In preparation</span><div><h3>Survey attitudes and survey participation—and vice versa</h3><p>Links survey attitudes with participation records before and after an attitude survey in the Understanding America Study. Enjoyment of answering questionnaires was associated with both earlier and subsequent participation, while perceived exhaustion was associated with earlier participation over a shorter period.</p><a href="https://youtu.be/0C45tHPmJrc?si=XyjWhfdLeymGcQ0q" target="_blank" rel="noopener">Watch presentation ↗</a></div></article>
+```
+
+## Doctoral dissertation {#research-section-0}
+
+```{=html}
+<h3>On effective and efficient survey data collection at the crossroads of statistics and artificial intelligence</h3>
+<p class="meta">University of Michigan, 2026</p>
+<p>My dissertation investigates three ways to improve survey data collection: identifying groups that may benefit from different recruitment strategies; using predicted survey answers to help estimate participation; and using AI-generated profiles to prioritize recruitment.</p>
+<a href="https://deepblue.lib.umich.edu/bitstreams/d2da21b3-0d2a-40e0-97eb-476942635749/download" target="_blank" rel="noopener" class="dissertation-download">Read dissertation · PDF ↗</a>
+```
+
+## Conference presentations
 
 ::: {#refs-conference}
 :::
 
-## Invited Talks
+## Invited talks
 
 ::: {#refs-talk}
 :::

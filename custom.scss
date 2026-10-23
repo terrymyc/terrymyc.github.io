@@ -73,7 +73,7 @@ html.site-dark body .navbar, html.site-dark body #quarto-header { background: #1
 html.site-dark body .navbar-brand, html.site-dark body .nav-link, html.site-dark body h1, html.site-dark body h2, html.site-dark body h3 { color: #e6ece8 !important; }
 html.site-dark body a, html.site-dark body .nav-footer-right .nav-link { color: #a2d4b7; }
 html.site-dark body .navbar-toggler-icon { filter: invert(1); }
-html.site-dark body .nav-footer { color: #adbbb3; }
+html.site-dark body .nav-footer { background-color: #191e1c; color: #adbbb3; }
 @media (max-width: 767px) { .work, .csl-entry.year-entry { grid-template-columns: 1fr; gap: 6px; align-items: start; } }
 
 /* Remove CSL hanging indents from the complete year-and-citation row. */
@@ -86,3 +86,14 @@ html.site-dark #theme-toggle { color: #e6ece8; }
 html.site-dark body .primary-action { background: #a2d4b7; color: #191e1c; }
 html.site-dark body .primary-action:hover { background: #c1e5d0; color: #191e1c; }
 .work p.meta { font-size: 12px; }
+
+@media (min-width: 992px) {
+  .navbar-container > #theme-toggle { order: 901; }
+}
+
+.research-nav { margin: 28px 0 36px; padding: 16px 0; border-block: 1px solid var(--ma-rule); }
+.research-nav-label { margin: 0 0 8px; font-size: 12px; color: var(--ma-muted); }
+.research-nav ul { display: flex; flex-wrap: wrap; gap: 8px 22px; list-style: none; padding: 0; margin: 0; font-size: 14px; }
+.research-nav a { text-decoration: none; }
+.research-nav a:hover { text-decoration: underline; }
+#research-section-0, #research-section-1, #journal-articles, #conference-presentations, #invited-talks { scroll-margin-top: 120px; }

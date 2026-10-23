@@ -1528,7 +1528,7 @@
   <!-- 4.5. Works with specific locations (APA 9.31) -->
   <macro name="source-location">
     <choose>
-      <if match="any" variable="event event-title">
+      <if match="any" variable="event event-title event-place">
         <!-- TODO: To prevent Zotero from printing `event-place`, due to its double-mapping of `publisher-place` and `event-place`. Remove this when that is changed. -->
         <choose>
           <if type="paper-conference">
